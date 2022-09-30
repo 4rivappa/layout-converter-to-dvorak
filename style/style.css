@@ -1,0 +1,42 @@
+body {
+	margin-top: 0px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
+	color: black;
+	font-family: 'Trebuchet MS','Times New Roman', Arial, sans-serif;
+	background-image:url("../images/white.png");
+}
+#main-heading {
+	text-align: left;
+	padding: 0px 0px  0px 16%;
+}
+#text-boxes {
+  text-align: left;
+}
+#center-elements {
+  text-align: left;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+#container {
+  text-align: center;
+}
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#footer {
+    font-size:12px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="qwerty-to-dvorak-converter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qwerty-dvorak</title>
+    <link rel="StyleSheet" href="../style/style.css"/>
+    <script src="../script/qwerty-dvorak-script.js">
+    </script>
+  </head>
+  <body>
+    <!--<img align=right src="../images/wordArt1.png" width=40%>-->
+    <h3 class="noselect" id="main-heading">QWERTY TO DVORAK</h3>
+    <div style="font-variant:small-caps" class="noselect" id="center-elements">
+      converting the qwerty letters to dvorak letters which represent them<br/>
+    </div>
+    <br/>
+    <div id="text-boxes">
+      <div>
+        <b class="noselect">Text:</b><br/>
+        <textarea style="resize:none;" spellcheck="false" rows="10" cols="80" id="text" name="text"></textarea>
+        <br/>
+      </div>
+      <div>
+        <b class="noselect">Equivalent:</b><br/>
+        <textarea style="resize:none;" spellcheck="false" rows="10" cols="80" id="equivalent" name="equivalent"></textarea>
+        <br/><br/>
+      </div>
+    </div>
+    <div class="noselect" id="center-elements">
+      <button type="button" onClick="myfunction();">Convert</button>
+    </div>
+  </body>
+  <footer>
+    <div class="noselect" id="footer">
+      <p>product by <strong><b>ECCSEE</b></strong></p>
+    </div>
+  </footer>
+</html>
